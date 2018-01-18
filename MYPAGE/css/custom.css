@@ -1,0 +1,317 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#cv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#profile {
+    background: #1e1e1e;
+    color: #a5a5a5;
+    padding: 25px;
+}
+
+#intro {
+    display: flex;
+    border-bottom: 2px solid #a5a5a5;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#intro img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+}
+#intro header {
+    display: block;
+    margin-right: 25px
+}
+#intro header h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color:hotpink;
+    font-size: 40px;
+    margin: 0;
+}
+#intro header h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #d07628;
+    font-size: 40px;
+    
+}
+#intro header h3 {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#about {
+    border-left: 2px solid #a5a5a5;
+    padding: 15px;
+    width: 350px
+}
+#contact-info {
+    display: flex;
+    border-bottom: 2px solid #a5a5a5;
+}
+#contact-info ul {
+    list-style: none;   
+}
+#contact-info ul:first-child {
+    font-weight: 600;
+}
+
+#about article {
+    font-weight: 300;
+}
+
+ul#social-networks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction:row;
+}
+ul#social-networks a {
+    text-decoration: none;
+    color: #fff;
+}
+ul#social-networks i {
+    margin-right: 10px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 900px;
+    height: 900px;
+    
+}
+
+.white {
+    background-color: aliceblue;
+    flex-grow: 10;
+}
+
+.blue {
+    background-color: darkblue;
+    flex-grow: 5;
+}
+
+.experience {
+     display:flex;
+    
+}
+
+#skills {
+        display:flex;
+        flex-direction: column;
+}
+
+
+
+
+
+#experience {
+    display: flex;
+    
+}
+
+#blocktext {
+    width: 400px;
+    height: 117px;
+    background-color: black;
+}
+
+.green {
+    background-color: green;
+    flex-grow: 5;
+ 
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 117px;
+     flex-grow: 10;
+}
+
+.pink {
+    background-color: deeppink;
+}
+
+.grey {
+    background-color: dimgray;
+}
+
+
+
+#purple footer {
+    
+}
+
+
+
+
+
+.footer {
+    display: flex;
+   
+}
+
+.hobbies {
+    display: flex;
+    flex-grow: 5;
+    flex-direction: column;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.picture {
+    display: flex;
+}
+
+.picturetxt {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: row;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+
+
+.darkred {
+    background-color: darkred;
+}
+
+#language {
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
+}
+
+.olive {
+    background-color: olive;
+}
+
+.education {
+    display: flex;
+    flex-grow: 15;
+    flex-direction: column;
+}
+
+.educationtext {
+        display: flex;
+    flex-grow: 5;
+    flex-direction: row;
+}
+
+.fs {
+   color: lightseagreen; 
+}
+
+.jfs {
+    color: dimgray;
+}
+
+.position {
+    padding-right: 15%;
+}
+
+.Bgrey {
+    background-color: gray;
+}
+
+.hfc {
+    color: rgba(85, 81, 81, 0.88);
+}
+
+.Blgrey {
+    background-color: darkgray;
+}
+
+.lightblue {
+    background-color: aqua;
+}
+
+#fa {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ul#fa{
+    text-decoration: none;
+    color: #fff;
+}
+
+.skill {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 5;
+
+    
+}
+
+.skillProgress {
+    display:flex;
+    flex-direction: column;
+ 
+}
+
+
+
+.BGC {
+    background-color: yellow;
+}
+
+
+p#camera {
+
+    align-items: center;
+    
+}
+i#camera{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+#skilll {
+  
+}
+
+#pg {
+    display: flex;
+
+}
+
+#pp {
+       display: flex;
+
+}
+
+.iconsStyle {
+    width: 100px;
+}
+
+.leftP {
+    padding-left: 15px;
+}
